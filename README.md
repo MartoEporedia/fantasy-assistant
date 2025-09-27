@@ -2,8 +2,8 @@
 
 [![License](https://img.shields.io/badge/license-TBD-lightgrey.svg)](LICENSE)  
 ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)  
-![Last Commit](https://img.shields.io/github/last-commit/tuo-username/fantasy-assistant)  
-![Issues](https://img.shields.io/github/issues/tuo-username/fantasy-assistant)  
+![Last Commit](https://img.shields.io/github/last-commit/martoeporedia/fantasy-assistant)  
+![Issues](https://img.shields.io/github/issues/martoeporedia/fantasy-assistant)  
 
 **Fantasy Assistant** is a data-driven fantasy football (Serie A) assistant.  
 It helps managers during **auctions** (including sealed-bid), **roster management**, **trades**, and **weekly lineups** using stats, historical data, community insights, and AI-powered predictions.  
