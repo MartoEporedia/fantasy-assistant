@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.api import players, auth, auctions, rosters, advice, community
+from app.api import players, auth, auctions, rosters, advice, community, data_update
 from app.core.config import settings
 
 app = FastAPI(
@@ -25,6 +25,7 @@ app.include_router(auctions.router, prefix="/api/auctions", tags=["auctions"])
 app.include_router(rosters.router, prefix="/api/rosters", tags=["rosters"])
 app.include_router(advice.router, prefix="/api/advice", tags=["advice"])
 app.include_router(community.router, prefix="/api/community", tags=["community"])
+app.include_router(data_update.router, prefix="/api/data", tags=["data-update"])
 
 @app.get("/")
 async def root():
